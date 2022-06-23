@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = TTT
 
 # (str) Package name
-package.name = myapp
+package.name = hacode
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = com.hacode
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -37,17 +37,17 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = kivy==2.1.0,https://github.com/kivymd/KivyMD/archive/refs/heads/master.zip, requests,pillow,
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-#presplash.filename = %(source.dir)s/data/presplash.png
+presplash.filename = logo.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
+icon.filename = logo.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
