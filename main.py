@@ -35,7 +35,6 @@ from kivy.utils import platform
 from kivy.core.window import Window
 import time
 import _thread
-import urllib.parse
 
 Buil_strng ='''
 ScreenManager:
@@ -100,7 +99,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.2,'center_y':0.58}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn1)
     MDRectangleFlatButton:
         id: btn2
@@ -108,7 +107,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.5,'center_y':0.58}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn2)
     MDRectangleFlatButton:
         id: btn3
@@ -116,7 +115,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.8,'center_y':0.58}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn3)
     MDRectangleFlatButton:
         id: btn4
@@ -124,7 +123,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.2,'center_y':0.46}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn4)
     MDRectangleFlatButton:
         id: btn5
@@ -132,7 +131,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.5,'center_y':0.46}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn5)
     MDRectangleFlatButton:
         id: btn6
@@ -140,7 +139,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.8,'center_y':0.46}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn6)
     MDRectangleFlatButton:
         id: btn7
@@ -148,7 +147,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.2,'center_y':0.34}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn7)
     MDRectangleFlatButton:
         id: btn8
@@ -156,7 +155,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.5,'center_y':0.34}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn8)
     MDRectangleFlatButton:
         id: btn9
@@ -164,7 +163,7 @@ ScreenManager:
         #md_bg_color: 1, 0, 1, 1
         size_hint: .3,.12
         pos_hint:{'center_x':0.8,'center_y':0.34}
-        font_size : "80sp"
+        font_size : "50sp"
         on_release: app.r(btn9)
         
     MDFillRoundFlatButton:
