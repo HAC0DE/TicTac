@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = TTT
+title = TicTacToe
 
 # (str) Package name
 package.name = hacode
