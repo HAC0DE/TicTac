@@ -35,6 +35,7 @@ from kivy.utils import platform
 from kivy.core.window import Window
 import time
 import _thread
+import urllib.parse
 
 Buil_strng ='''
 ScreenManager:
