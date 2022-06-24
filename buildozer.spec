@@ -44,7 +44,7 @@ requirements = kivy==2.1.0,https://github.com/kivymd/KivyMD/archive/refs/heads/m
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = logo.png
+presplash.filename = pra.jpg
 
 # (str) Icon of the application
 icon.filename = logo.png
